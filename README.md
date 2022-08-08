@@ -6,5 +6,5 @@
 
 
 ## 🔧 Technologies & Tools
-![Top Langs](https://github-readme-stats-96orsm7ey-flyander.vercel.app/api/top-langs/?username=Flyander&theme=gotham&layout=compact&langs_count=9)
+![Top Langs](https://github-readme-stats-96orsm7ey-flyander.vercel.app/api/top-langs/?username=Flyander&theme=gotham&layout=compact&langs_count=9&count_private=true)
 
