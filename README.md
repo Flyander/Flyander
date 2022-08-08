@@ -1,10 +1,10 @@
 ### Hi there 👋
 
 ## &#x1f4c8; GitHub Stats
-![Flyander's GitHub stats](https://github-readme-stats-d9f1blzw7-flyander.vercel.app/api?username=Flyander&theme=gotham&count_private=true)
+![Flyander's GitHub stats](https://github-readme-stats-96orsm7ey-flyander.vercel.app/api?username=Flyander&theme=gotham&count_private=true)
 
 
 
 ## 🔧 Technologies & Tools
-![Top Langs](https://github-readme-stats-d9f1blzw7-flyander.vercel.app/api/top-langs/?username=Flyander&theme=gotham&layout=compact&langs_count=9)
+![Top Langs](https://github-readme-stats-96orsm7ey-flyander.vercel.app/api/top-langs/?username=Flyander&theme=gotham&layout=compact&langs_count=9)
 
