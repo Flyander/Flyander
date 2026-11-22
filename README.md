@@ -1,10 +1,14 @@
-### Hi there 👋
+![Yohann F., développeur Symfony au Crédit Agricole des Côtes d’Armor et développeur diplômé en IA. Un phare en caractères ASCII projette un faisceau en forme de réseau de neurones.](./assets/armor.png)
 
-## &#x1f4c8; GitHub Stats
-![Flyander's GitHub stats](https://github-readme-stats-iubf3gi9v-flyander.vercel.app/api?username=Flyander&theme=gotham&count_private=true)
+Je développe en **PHP avec Symfony** au Crédit Agricole des Côtes d’Armor. Je suis également diplômé en développement d’intelligence artificielle.
 
+### Quelques réalisations publiques
 
+**[MyEMS](https://github.com/Flyander/MyEMS)** · PHP / CodeIgniter  
+Une application qui permet à une équipe médicale de saisir et de retrouver les dossiers de ses patients.
 
-## 🔧 Technologies & Tools
-![Top Langs](https://github-readme-stats-iubf3gi9v-flyander.vercel.app/api/top-langs/?username=Flyander&theme=gotham&layout=compact&langs_count=9&count_private=false&hide=Hack)
+**[TregorTransport](https://github.com/Flyander/TregorTransport)** · C# / Web / Mobile  
+Trois interfaces pour la gestion du transport public, sur le web, sur mobile et sous Windows.
 
+**[Leonida · correctif nº 1296](https://github.com/ItsNotRexed/Leonida/pull/1296)** · Python  
+Une contribution ciblée sur la gestion des ressources. Le correctif ferme les fichiers de lecture GPU dès que leur contenu a été lu.
