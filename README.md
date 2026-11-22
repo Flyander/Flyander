@@ -1,6 +1,6 @@
-![Yohann F., développeur Symfony au Crédit Agricole des Côtes d’Armor et développeur diplômé en IA. Un phare en caractères ASCII projette un faisceau en forme de réseau de neurones.](./assets/armor.png)
+![Yohann F., développeur Symfony au Crédit Agricole des Côtes d’Armor et développeur IA. Un phare en caractères ASCII projette un faisceau en forme de réseau de neurones.](./assets/armor.png)
 
-Je développe en **PHP avec Symfony** au Crédit Agricole des Côtes d’Armor. Je suis également diplômé en développement d’intelligence artificielle.
+Je développe en **PHP avec Symfony** au Crédit Agricole des Côtes d’Armor. Je suis également **développeur IA**.
 
 ### Quelques réalisations publiques
 
