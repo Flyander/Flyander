@@ -7,7 +7,44 @@
 
 Je suis **développeur PHP/Symfony au Crédit Agricole des Côtes d’Armor** et **développeur IA**. Côté web, je m’intéresse au trajet complet d’une requête, de l’écran jusqu’aux données. Côté IA, je travaille en Python sur la préparation des données, leur exploration et la classification.
 
-**[Symfony en pratique](#symfony-en-pratique)** · **[Carnet IA](#carnet-ia)** · **[Projets métier](#projets)** · **[Parcours](#parcours)**
+**[MyEMS](#myems)** · **[Leonida](#leonida)** · **[Symfony](#symfony-en-pratique)** · **[Carnet IA](#carnet-ia)** · **[Parcours](#parcours)**
+
+## MyEMS
+
+[![MyEMS. Radio de dispatch et moniteur médical en caractères ivoire et rubis.](./assets/myems-cover.webp)](https://github.com/Flyander/MyEMS#readme)
+
+**Projet à la une · PHP, CodeIgniter**
+
+MyEMS est un tableau de bord pour les équipes de secours en **jeu de rôle**. J’y ai réuni trois tâches qui se répondent pendant une session de jeu. L’équipe peut répartir les interventions, retrouver le dossier d’un personnage et suivre le temps de service depuis le même espace.
+
+<details>
+<summary><strong>Explorer le tableau de bord</strong></summary>
+
+- **Interventions.** Répartir les interventions et suivre les actions de supervision.
+- **Dossiers.** Saisir, retrouver et consulter les dossiers des personnages pris en charge.
+- **Service.** Suivre les prises de service, les pauses et les heures enregistrées.
+
+[Lire le contrôleur du tableau de bord](https://github.com/Flyander/MyEMS/blob/master/application/controllers/Dashboard.php)
+
+</details>
+
+[Voir MyEMS et sa démonstration ↗](https://github.com/Flyander/MyEMS#readme)
+
+## Leonida
+
+[![Leonida. Un boulevard côtier au coucher du soleil, avec palmiers, façades art déco et néons en caractères ASCII.](./assets/leonida-cover.webp)](https://github.com/ItsNotRexed/Leonida)
+
+**Contribution récente · C++, Python, Direct3D 12, GitHub Actions**
+
+Leonida est un projet communautaire qui vise à recompiler sur PC la version Xbox de **Grand Theft Auto VI**. Mes contributions portent sur la compatibilité des builds Windows, les tests graphiques et l’intégration continue.
+
+| Contribution fusionnée | Ce que j’ai changé |
+| --- | --- |
+| [Compatibilité Direct3D 12 avec le SDK Windows 10.0.26100 · #2453](https://github.com/ItsNotRexed/Leonida/pull/2453) | Adapté les requêtes de capacités Direct3D 12 et partagé les définitions de compatibilité entre le runtime et les tests. |
+| [File d’attente GitHub Actions · #4246](https://github.com/ItsNotRexed/Leonida/pull/4246) | Regroupé les exécutions par branche pour que les pushes récents remplacent les exécutions en attente qui sont devenues obsolètes. Une exécution déjà lancée se poursuit. |
+| [Fichiers de lecture GPU · #1296](https://github.com/ItsNotRexed/Leonida/pull/1296) | Fermé les fichiers dès la fin de leur lecture pour corriger les avertissements de ressources dans les tests Python. |
+
+[Voir mes pull requests fusionnées ↗](https://github.com/ItsNotRexed/Leonida/pulls?q=is%3Apr+is%3Amerged+author%3AFlyander)
 
 ## Symfony en pratique
 
@@ -48,11 +85,7 @@ Cette étude montre pourquoi le choix de la représentation compte autant que le
 
 [Lire l’analyse de départ ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/first-research.ipynb) · [Voir le notebook de modélisation ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/score_supp_benchmark.ipynb)
 
-## Projets
-
-![TregorTransport réunit trois interfaces, web, mobile et Windows. MyEMS couvre la répartition des interventions, la recherche de dossiers et le suivi des heures de service.](./assets/projets-rubis.png)
-
-### TregorTransport · Un même métier, trois interfaces
+## TregorTransport · Un même métier, trois interfaces
 
 Projet d’équipe réalisé à trois autour de la gestion du transport public. Le nom vient du Trégor, en Bretagne. Le dépôt réunit un **site Symfony**, une **application mobile Xamarin** et un **outil de gestion Windows en C#**. On y voit comment un même métier se décline selon l’usage.
 
@@ -66,23 +99,6 @@ Projet d’équipe réalisé à trois autour de la gestion du transport public. 
 </details>
 
 [Voir le dépôt TregorTransport ↗](https://github.com/Flyander/TregorTransport)
-
-### MyEMS · Le quotidien d’une équipe de secours en jeu de rôle
-
-Un tableau de bord en **PHP et CodeIgniter** conçu pour le roleplay. Il rassemble la saisie et la recherche de dossiers, la répartition des interventions et le calcul des heures de service. Le projet explore la coordination d’une équipe quand plusieurs personnes travaillent sur les mêmes informations.
-
-<details>
-<summary><strong>Voir ce que couvre le tableau de bord</strong></summary>
-
-- **Dossiers.** Saisir, retrouver et consulter les dossiers des personnages pris en charge.
-- **Interventions.** Retrouver les actions liées à la répartition des interventions et à la supervision dans le même tableau de bord.
-- **Service.** Suivre les prises de service, les pauses et les heures enregistrées.
-
-[Lire le contrôleur du tableau de bord](https://github.com/Flyander/MyEMS/blob/master/application/controllers/Dashboard.php)
-
-</details>
-
-[Voir le dépôt MyEMS et sa démonstration ↗](https://github.com/Flyander/MyEMS#readme)
 
 ## Parcours
 
