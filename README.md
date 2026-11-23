@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Flyander/Flyander/main/assets/armor-rubis.png">
-  <img src="./assets/armor-rubis-anime.gif" alt="Yohann F., développeur Symfony au Crédit Agricole des Côtes d’Armor et développeur IA. Le faisceau d’un phare rouge rubis en ASCII balaie un réseau de neurones." width="1280" height="560">
+  <img src="./assets/armor-rubis-anime.gif" alt="Yohann F., développeur Symfony au Crédit Agricole des Côtes d’Armor et développeur IA. Le faisceau d’un phare rouge rubis en ASCII balaie un réseau de neurones.">
 </picture>
 
 # Développement Symfony et IA appliquée
@@ -11,7 +11,7 @@ Je suis **développeur PHP/Symfony au Crédit Agricole des Côtes d’Armor** et
 
 ## MyEMS
 
-[![MyEMS. Radio de dispatch et moniteur médical en caractères ivoire et rubis.](./assets/myems-cover.webp)](https://github.com/Flyander/MyEMS#readme)
+[![MyEMS. Trois lignes de dispatch, interventions, dossiers RP et temps de service, convergent vers un moniteur médical dessiné en ASCII rubis.](./assets/myems-ascii.png)](https://github.com/Flyander/MyEMS#readme)
 
 **Projet à la une · PHP, CodeIgniter**
 
@@ -32,7 +32,7 @@ MyEMS est un tableau de bord pour les équipes de secours en **jeu de rôle**. J
 
 ## Leonida
 
-[![Leonida. Un boulevard côtier au coucher du soleil, avec palmiers, façades art déco et néons en caractères ASCII.](./assets/leonida-cover.webp)](https://github.com/ItsNotRexed/Leonida)
+[![Leonida. Un front de mer au crépuscule, avec palmiers, façades art déco et reflets sur l’eau, dessiné en caractères ASCII.](./assets/leonida-ascii.png)](https://github.com/ItsNotRexed/Leonida)
 
 **Contribution récente · C++, Python, Direct3D 12, GitHub Actions**
 
