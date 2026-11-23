@@ -11,11 +11,11 @@ Je suis **développeur PHP/Symfony au Crédit Agricole des Côtes d’Armor** et
 
 ## MyEMS
 
-[![MyEMS. Trois lignes de dispatch, interventions, dossiers RP et temps de service, convergent vers un moniteur médical dessiné en ASCII rubis.](./assets/myems-ascii.png)](https://github.com/Flyander/MyEMS#readme)
-
 **Projet à la une · PHP, CodeIgniter**
 
 MyEMS est un tableau de bord pour les équipes de secours en **jeu de rôle**. J’y ai réuni trois tâches qui se répondent pendant une session de jeu. L’équipe peut répartir les interventions, retrouver le dossier d’un personnage et suivre le temps de service depuis le même espace.
+
+<p><a href="https://github.com/Flyander/MyEMS#readme"><img src="./assets/myems-ascii.png" width="50%" alt="MyEMS. Trois lignes de dispatch convergent vers un moniteur médical dessiné en ASCII rubis."></a></p>
 
 <details>
 <summary><strong>Explorer le tableau de bord</strong></summary>
@@ -32,11 +32,11 @@ MyEMS est un tableau de bord pour les équipes de secours en **jeu de rôle**. J
 
 ## Leonida
 
-[![Leonida. Un front de mer au crépuscule, avec palmiers, façades art déco et reflets sur l’eau, dessiné en caractères ASCII.](./assets/leonida-ascii.png)](https://github.com/ItsNotRexed/Leonida)
-
 **Contribution récente · C++, Python, Direct3D 12, GitHub Actions**
 
 Leonida est un projet communautaire qui vise à recompiler sur PC la version Xbox de **Grand Theft Auto VI**. Mes contributions portent sur la compatibilité des builds Windows, les tests graphiques et l’intégration continue.
+
+<p><a href="https://github.com/ItsNotRexed/Leonida"><img src="./assets/leonida-ascii.png" width="50%" alt="Leonida. Un front de mer au crépuscule, avec palmiers et reflets sur l’eau, dessiné en ASCII."></a></p>
 
 | Contribution fusionnée | Ce que j’ai changé |
 | --- | --- |
@@ -57,8 +57,6 @@ La partie web de **TregorTransport**, un projet d’équipe, donne un exemple co
 | [Entité utilisateur](https://github.com/Flyander/TregorTransport/blob/master/TregorTransportWebsite/src/Entity/User.php) et [espace client](https://github.com/Flyander/TregorTransport/blob/master/TregorTransportWebsite/src/Controller/ClientController.php) | Modèle utilisateur côté données et rendu Twig côté interface. |
 
 ## Carnet IA
-
-![Vue d’ensemble des notebooks, avec les données de paniers et de produits, leur préparation, l’analyse exploratoire et la classification.](./assets/carnet-rubis.png)
 
 ### Open Food Facts · Préparer des données nutritionnelles
 
@@ -84,6 +82,8 @@ Comment représenter un panier d’achat pour entraîner un classifieur ? Le pre
 Cette étude montre pourquoi le choix de la représentation compte autant que le choix du modèle. Avec une classe fraude minoritaire, l’exactitude globale dit peu sur la capacité à retrouver les cas qui comptent.
 
 [Lire l’analyse de départ ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/first-research.ipynb) · [Voir le notebook de modélisation ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/score_supp_benchmark.ipynb)
+
+<p><img src="./assets/carnet-rubis.png" width="50%" alt="Vue d’ensemble des notebooks, de la préparation des données à la classification."></p>
 
 ## TregorTransport · Un même métier, trois interfaces
 
