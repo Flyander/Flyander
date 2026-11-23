@@ -1,10 +1,52 @@
-![Yohann F., développeur Symfony au Crédit Agricole des Côtes d’Armor et développeur IA. Un phare rouge rubis en caractères ASCII projette un faisceau en forme de réseau de neurones.](./assets/armor-rubis.png)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Flyander/Flyander/main/assets/armor-rubis.png">
+  <img src="./assets/armor-rubis-anime.gif" alt="Yohann F., développeur Symfony au Crédit Agricole des Côtes d’Armor et développeur IA. Le faisceau d’un phare rouge rubis en ASCII balaie un réseau de neurones." width="1280" height="560">
+</picture>
 
-# Des applications métier à l’IA
+# Développement Symfony et IA appliquée
 
-Je suis **développeur PHP/Symfony au Crédit Agricole des Côtes d’Armor** et **développeur IA**. Mes projets publics vont d’une suite de gestion du transport à des notebooks d’analyse de données. Ce qui m’intéresse dans les deux domaines, c’est la façon dont on passe d’un besoin concret à un résultat qu’on peut utiliser et examiner.
+Je suis **développeur PHP/Symfony au Crédit Agricole des Côtes d’Armor** et **développeur IA**. Côté web, je m’intéresse au trajet complet d’une requête, de l’écran jusqu’aux données. Côté IA, je travaille en Python sur la préparation des données, leur exploration et la classification.
 
-**[Projets métier](#projets)** · **[Carnet IA](#carnet-ia)** · **[Parcours](#parcours)**
+**[Symfony en pratique](#symfony-en-pratique)** · **[Carnet IA](#carnet-ia)** · **[Projets métier](#projets)** · **[Parcours](#parcours)**
+
+## Symfony en pratique
+
+La partie web de **TregorTransport**, un projet d’équipe, donne un exemple concret de mon parcours Symfony. Le flux d’inscription relie une route, un formulaire validé, une entité Doctrine et l’authentification. L’espace client a son propre contrôleur et son propre gabarit Twig.
+
+| Dans le code | Ce qu’on peut suivre |
+| --- | --- |
+| [Contrôleur d’inscription](https://github.com/Flyander/TregorTransport/blob/master/TregorTransportWebsite/src/Controller/RegistrationController.php) | Traitement de la requête, validation, hachage du mot de passe, enregistrement et ouverture de session. |
+| [Type de formulaire](https://github.com/Flyander/TregorTransport/blob/master/TregorTransportWebsite/src/Form/RegistrationFormType.php) | Champs, contraintes et distinction entre le mot de passe saisi et la valeur persistée. |
+| [Entité utilisateur](https://github.com/Flyander/TregorTransport/blob/master/TregorTransportWebsite/src/Entity/User.php) et [espace client](https://github.com/Flyander/TregorTransport/blob/master/TregorTransportWebsite/src/Controller/ClientController.php) | Modèle utilisateur côté données et rendu Twig côté interface. |
+
+## Carnet IA
+
+![Vue d’ensemble des notebooks, avec les données de paniers et de produits, leur préparation, l’analyse exploratoire et la classification.](./assets/carnet-rubis.png)
+
+### Open Food Facts · Préparer des données nutritionnelles
+
+Comment rendre comparables des fiches produit dont certaines valeurs sont absentes, dupliquées ou aberrantes ? Le notebook documente la sélection des produits vendus en France, le nettoyage des colonnes et le traitement des valeurs manquantes. Les données sont ensuite standardisées avant une **analyse en composantes principales (ACP)**, qui aide à lire les relations entre variables nutritionnelles.
+
+<details>
+<summary><strong>Suivre les étapes de l’analyse</strong></summary>
+
+- **Définir le périmètre.** Restreindre l’analyse aux produits vendus en France et écarter les colonnes peu exploitables.
+- **Préparer les observations.** Repérer les doublons, examiner les valeurs extrêmes et traiter les données manquantes avant de comparer les produits.
+- **Lire l’ACP.** Utiliser l’éboulis des valeurs propres, les cercles de corrélation et les plans factoriels pour interpréter la projection.
+
+[Voir le code des graphiques](https://github.com/Flyander/OpenFood_project/blob/master/functions.py)
+
+</details>
+
+[Ouvrir le notebook Open Food Facts ↗](https://github.com/Flyander/OpenFood_project/blob/master/open_food_notebook.ipynb)
+
+### Challenge Data · Détection de fraude
+
+Comment représenter un panier d’achat pour entraîner un classifieur ? Le premier notebook décrit la structure des données et le **déséquilibre entre les classes**. Le second explore des variables dérivées des **catégories et marques** présentes dans les paniers, puis entraîne une **forêt aléatoire** avec scikit-learn.
+
+Cette étude montre pourquoi le choix de la représentation compte autant que le choix du modèle. Avec une classe fraude minoritaire, l’exactitude globale dit peu sur la capacité à retrouver les cas qui comptent.
+
+[Lire l’analyse de départ ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/first-research.ipynb) · [Voir le notebook de modélisation ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/score_supp_benchmark.ipynb)
 
 ## Projets
 
@@ -42,31 +84,15 @@ Un tableau de bord en **PHP et CodeIgniter** conçu pour le roleplay. Il rassemb
 
 [Voir le dépôt MyEMS et sa démonstration ↗](https://github.com/Flyander/MyEMS#readme)
 
-## Carnet IA
-
-![Vue d’ensemble des notebooks, avec les données de paniers et de produits, leur préparation, l’analyse exploratoire et la classification.](./assets/carnet-rubis.png)
-
-### Open Food Facts · Préparer des données nutritionnelles
-
-Ce notebook part de données sur les produits alimentaires. Il documente la sélection des produits vendus en France, la suppression des doublons, l’examen des valeurs aberrantes et le traitement des valeurs manquantes. L’**analyse en composantes principales (ACP)** permet ensuite d’explorer les relations entre les variables nutritionnelles.
-
-[Ouvrir le notebook Open Food Facts ↗](https://github.com/Flyander/OpenFood_project/blob/master/open_food_notebook.ipynb)
-
-### Challenge Data · Détection de fraude
-
-Un exercice de classification à partir de paniers d’achat. Le notebook de recherche décrit les données et le déséquilibre entre les classes. Le second notebook explore une représentation des paniers à partir des **catégories de produits et des marques**, puis entraîne une **forêt aléatoire** avec scikit-learn.
-
-[Lire l’analyse de départ ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/first-research.ipynb) · [Voir le notebook de modélisation ↗](https://github.com/Flyander/Anti-fraude-IA/blob/master/score_supp_benchmark.ipynb)
-
 ## Parcours
 
 Mon parcours passe par le développement **web, mobile et Windows**, puis par les projets de **data science en Python**. Aujourd’hui, **Symfony** est mon cadre de travail au Crédit Agricole des Côtes d’Armor. Les notebooks publics montrent l’autre versant de mon profil, de l’exploration d’un jeu de données à un premier modèle.
 
-**Web** · PHP, Symfony, Twig, CodeIgniter  
+**Web** · PHP, Symfony, Doctrine, Twig, CodeIgniter  
 **Données et IA** · Python, Jupyter, pandas, scikit-learn  
 **Mobile et Windows** · C#, Xamarin, Entity Framework
 
 ---
 
-<p align="center"><a href="#des-applications-métier-à-lia">↑ Revenir en haut</a> · <a href="https://github.com/Flyander?tab=repositories">Tous mes dépôts sur GitHub</a></p>
+<p align="center"><a href="#développement-symfony-et-ia-appliquée">↑ Revenir en haut</a> · <a href="https://github.com/Flyander?tab=repositories">Tous mes dépôts sur GitHub</a></p>
 
